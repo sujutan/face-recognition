@@ -1,8 +1,18 @@
-import logo from "./logo.svg";
+import Navigation from "./components/navigation/Navigation";
+import Logo from "./components/logo/Logo";
+
+//styles
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Navigation />
+      <Logo />
+      {/* <ImageLinkForm />
+      <FaceRecognition /> */}
+    </div>
+  );
 }
 
 export default App;
