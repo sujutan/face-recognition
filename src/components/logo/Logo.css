@@ -23,8 +23,3 @@
   color: white;
   transform: translateZ(50px);
 }
-
-.inner-element img {
-  width: 100px;
-  height: 100px;
-}
