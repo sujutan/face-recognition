@@ -7,13 +7,10 @@ import { loadFull } from "tsparticles";
 
 export default function Background() {
   const particlesInit = async (main) => {
-    console.log(main);
     await loadFull(main);
   };
 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
+  const particlesLoaded = (container) => {};
 
   return (
     <div>
